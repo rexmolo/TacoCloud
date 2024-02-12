@@ -1,8 +1,11 @@
-package io.github.rexmolo.tacocloud;
+package io.github.rexmolo.tacocloud.data;
+
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 public class TacoOrder {
 
     private String deliveryName;

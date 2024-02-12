@@ -1,5 +1,6 @@
 package io.github.rexmolo.tacocloud;
 
+import io.github.rexmolo.tacocloud.ctl.HomeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

@@ -1,4 +1,4 @@
-package io.github.rexmolo.tacocloud;
+package io.github.rexmolo.tacocloud.ctl;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
