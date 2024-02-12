@@ -1,6 +1,5 @@
 package io.github.rexmolo.tacocloud.data;
 
-import io.github.rexmolo.tacocloud.data.Ingredient;
 import lombok.Data;
 
 import java.util.List;
