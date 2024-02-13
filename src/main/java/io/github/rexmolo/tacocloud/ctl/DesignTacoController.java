@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Slf4j
+@Slf4j//logger
 @Controller
 @RequestMapping("/design")
 @SessionAttributes("tacoOrder")
