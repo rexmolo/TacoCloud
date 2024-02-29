@@ -1,8 +1,8 @@
 package io.github.rexmolo.tacocloud.ctl;
 
-import io.github.rexmolo.tacocloud.data.Ingredient;
-import io.github.rexmolo.tacocloud.data.TacoOrder;
-import io.github.rexmolo.tacocloud.data.Taco;
+import io.github.rexmolo.tacocloud.domain.entity.Ingredient;
+import io.github.rexmolo.tacocloud.domain.entity.TacoOrder;
+import io.github.rexmolo.tacocloud.domain.entity.Taco;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

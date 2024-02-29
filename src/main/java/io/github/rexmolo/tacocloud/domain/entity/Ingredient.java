@@ -1,4 +1,4 @@
-package io.github.rexmolo.tacocloud.data;
+package io.github.rexmolo.tacocloud.domain.entity;
 
 import lombok.Data;
 

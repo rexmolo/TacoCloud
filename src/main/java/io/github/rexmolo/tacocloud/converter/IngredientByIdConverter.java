@@ -1,6 +1,6 @@
 package io.github.rexmolo.tacocloud.converter;
 
-import io.github.rexmolo.tacocloud.data.Ingredient;
+import io.github.rexmolo.tacocloud.domain.entity.Ingredient;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
