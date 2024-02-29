@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @SessionAttributes("tacoOrder")
 public class DesignTacoController {
 
-    @ModelAttribute
+    @ModelAttribute//You’ll also notice a method named addIngredientsToModel() that is annotated with @ModelAttribute. This method will also be invoked when a request is handled and will construct a list of Ingredient objects to be put into the model.
     public void addIngredientsToModel(Model model){
         List<Ingredient> ingredients = Arrays.asList(
                 new Ingredient("FLTO", "Flour Tortilla", Ingredient.Type.WRAP),
