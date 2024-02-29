@@ -1,4 +1,4 @@
-package io.github.rexmolo.tacocloud.data.service;
+package io.github.rexmolo.tacocloud.converter;
 
 import io.github.rexmolo.tacocloud.data.Ingredient;
 import org.springframework.core.convert.converter.Converter;
