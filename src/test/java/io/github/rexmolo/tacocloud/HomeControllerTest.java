@@ -1,6 +1,7 @@
 package io.github.rexmolo.tacocloud;
 
-import io.github.rexmolo.tacocloud.ctl.HomeController;
+
+import io.github.rexmolo.tacocloud.ctl.WebConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -14,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 
-@WebMvcTest(HomeController.class)
+@WebMvcTest(WebConfig.class)
 class HomeControllerTest {
 
     @Autowired
